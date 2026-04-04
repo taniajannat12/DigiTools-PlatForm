@@ -1,4 +1,9 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
+
+
+
+
  import {use} from 'react';
 const Card = ({modelPromise,Cart,setCart}) => {
     const models=use(modelPromise)
