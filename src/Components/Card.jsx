@@ -17,6 +17,7 @@ if(exist){
     toast.error("already added to cart")
 }
 else{
+    setConfirm(item.id)
     setCart([...Cart,item])
     toast.success("Success")
 }
