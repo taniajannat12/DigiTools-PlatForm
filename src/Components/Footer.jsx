@@ -12,7 +12,7 @@ const Footer = () => {
 
 <div className='container mx-auto flex justify-center gap-5'>
 <div className='w-[250px] h-[250px]  bg-white shadow-sm rounded-4xl p-11'>
-   <div className='absolute -bottom-85 left-162 bg-blue-500  w-8 h-8 text-center text-xl text-white font-semibold rounded-full items-end'>01</div>
+   <div className='absolute  bg-blue-500  w-8 h-8 text-center text-xl text-white font-semibold rounded-full items-end'>01</div>
   <div className='flex justify-center'> <img src={packageImg} className='text-center w-11 h-11 bg-gray-300 rounded-full p-3'/></div>
     <div className='text-center'>
         <h1 className='text-xl font-semibold'>Create Account</h1>
@@ -21,7 +21,7 @@ const Footer = () => {
 </div>
 
 <div className='w-[250px] h-[250px]  bg-white shadow-sm rounded-4xl p-11'>
-    <div className='absolute -bottom-85 left-230 bg-blue-500  w-8 h-8 text-center text-xl text-white font-semibold rounded-full items-end'>02</div>
+    <div className='absolute bg-blue-500  w-8 h-8 text-center text-xl text-white font-semibold rounded-full items-end'>02</div>
   <div className='flex justify-center'> <img src={packageImg1} className='text-center w-11 h-11 bg-gray-300 rounded-full p-3'/></div>
     <div className='text-center'>
         <h1 className='text-xl font-semibold'>Choose Products</h1>
@@ -30,7 +30,7 @@ const Footer = () => {
 </div>
 
 <div className='w-[250px] h-[250px] bg-white shadow-sm rounded-4xl p-11'>
-    <div className='absolute -bottom-85 left-297 bg-blue-500  w-8 h-8 text-center text-xl text-white font-semibold rounded-full items-end'>03</div>
+    <div className='absolute  bg-blue-500  w-8 h-8 text-center text-xl text-white font-semibold rounded-full items-end'>03</div>
   <div className='flex justify-center'> <img src={packageImg2} className='text-center w-11 h-11 bg-gray-300 rounded-full p-3'/></div>
     <div className='text-center'>
         <h1 className='text-xl font-semibold'>Start Creating</h1>
