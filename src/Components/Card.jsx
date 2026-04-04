@@ -20,7 +20,7 @@ else{
     setCart([...Cart,item])
     toast.success("Success")
 }
-
+    }
       
     return (
         <div>
