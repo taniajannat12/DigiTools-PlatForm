@@ -19,7 +19,7 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["1TB storage", "File versioning", "AES-256 encryption"],
-    "icon": "https://example.com/icons/cloud_storage_plus.png"
+    "icon": "/DigiTools-Platform/assets/products/design-tool.png"
   },
   {
     "id": 3,
