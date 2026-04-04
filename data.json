@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Pro Design Toolkit",
+    "description": "A complete set of tools for graphic and web designers.",
+    "price": 49.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["500+ templates", "Vector editing", "Export to PNG & SVG"],
+    "icon": "https://example.com/icons/pro_design_toolkit.png"
+  },
+  {
+    "id": 2,
+    "name": "Cloud Storage Plus",
+    "description": "Secure cloud storage for all your files with automatic backup.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["1TB storage", "File versioning", "AES-256 encryption"],
+    "icon": "https://example.com/icons/cloud_storage_plus.png"
+  },
+  {
+    "id": 3,
+    "name": "Task Manager Pro",
+    "description": "Organize tasks and projects efficiently with this advanced manager.",
+    "price": 29.99,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Gantt charts", "Recurring tasks", "Team collaboration"],
+    "icon": "https://example.com/icons/task_manager_pro.png"
+  },
+  {
+    "id": 4,
+    "name": "AI Writing Assistant",
+    "description": "Generate creative and professional content with AI assistance.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Grammar correction", "Content ideas", "SEO optimization"],
+    "icon": "https://example.com/icons/ai_writing_assistant.png"
+  },
+  {
+    "id": 5,
+    "name": "Fitness Tracker App",
+    "description": "Track workouts, calories, and health goals easily.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Step counter", "Calorie tracking", "Workout plans"],
+    "icon": "https://example.com/icons/fitness_tracker_app.png"
+  },
+  {
+    "id": 6,
+    "name": "E-Learning Platform",
+    "description": "Access thousands of online courses and learning materials.",
+    "price": 99.99,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Video lectures", "Quizzes & exams", "Certificate of completion"],
+    "icon": "https://example.com/icons/e_learning_platform.png"
+  },
+  {
+    "id": 7,
+    "name": "Photo Editor Ultimate",
+    "description": "Professional photo editing with filters and AI tools.",
+    "price": 39.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["AI background removal", "Advanced filters", "Batch editing"],
+    "icon": "https://example.com/icons/photo_editor_ultimate.png"
+  },
+  {
+    "id": 8,
+    "name": "Online Backup Service",
+    "description": "Keep your files safe with automated online backups.",
+    "price": 7.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Automatic backups", "Cloud storage", "Version history"],
+    "icon": "https://example.com/icons/online_backup_service.png"
+  }
+]
