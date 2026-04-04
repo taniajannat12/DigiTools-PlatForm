@@ -8,16 +8,20 @@ import { toast } from 'react-toastify';
 const Card = ({modelPromise,Cart,setCart}) => {
     const models=use(modelPromise)
     console.log(models);
-const exist=Cart.find((product)=>product.id===item.id)
-if(exist){
-    toast.error("already added to cart")
-}
+
 
     const [confirm,setConfirm]=useState(null);
     const handleConfirm=(item)=>{
-        setConfirm(item.id);
-        setCart([...Cart,item])
-    }
+     const exist=Cart.find((product)=>product.id===item.id)
+if(exist){
+    toast.error("already added to cart")
+}
+else{
+    setCart([...Cart,item])
+    toast.success("Success")
+}
+
+      
     return (
         <div>
          {
