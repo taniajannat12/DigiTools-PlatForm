@@ -1,7 +1,5 @@
 import React from 'react';
-import packageImg from '../assets/user.png';
-import packageImg1 from '../assets/package.png';
-import packageImg2 from '../assets/rocket.png';
+
 const Footer = () => {
     return (
         <div>
@@ -13,7 +11,7 @@ const Footer = () => {
 <div className='container mx-auto flex justify-center gap-5'>
 <div className='w-[250px] h-[250px]  bg-white shadow-sm rounded-4xl p-11'>
    <div className='absolute  bg-blue-500  w-8 h-8 text-center text-xl text-white font-semibold rounded-full items-end'>01</div>
-  <div className='flex justify-center'> <img src={packageImg} className='text-center w-11 h-11 bg-gray-300 rounded-full p-3'/></div>
+  <div className='flex justify-center'> <img src="/DigiTools-Platform/assets/user.png" alt="user"  className='text-center w-11 h-11 bg-gray-300 rounded-full p-3'/></div>
     <div className='text-center'>
         <h1 className='text-xl font-semibold'>Create Account</h1>
         <p className='text-gray-500'>Sign up for free in seconds. No credit card required to get started.</p>
@@ -22,7 +20,7 @@ const Footer = () => {
 
 <div className='w-[250px] h-[250px]  bg-white shadow-sm rounded-4xl p-11'>
     <div className='absolute bg-blue-500  w-8 h-8 text-center text-xl text-white font-semibold rounded-full items-end'>02</div>
-  <div className='flex justify-center'> <img src={packageImg1} className='text-center w-11 h-11 bg-gray-300 rounded-full p-3'/></div>
+  <div className='flex justify-center'> <img src="/DigiTools-Platform/assets/user.png" alt="user"  className='text-center w-11 h-11 bg-gray-300 rounded-full p-3'/></div>
     <div className='text-center'>
         <h1 className='text-xl font-semibold'>Choose Products</h1>
         <p className='text-gray-500'>Browse our catalog and select the tools that fit your needs.</p>
@@ -31,7 +29,7 @@ const Footer = () => {
 
 <div className='w-[250px] h-[250px] bg-white shadow-sm rounded-4xl p-11'>
     <div className='absolute  bg-blue-500  w-8 h-8 text-center text-xl text-white font-semibold rounded-full items-end'>03</div>
-  <div className='flex justify-center'> <img src={packageImg2} className='text-center w-11 h-11 bg-gray-300 rounded-full p-3'/></div>
+  <div className='flex justify-center'> <img src="/DigiTools-Platform/assets/user.png" alt="user"  className='text-center w-11 h-11 bg-gray-300 rounded-full p-3'/></div>
     <div className='text-center'>
         <h1 className='text-xl font-semibold'>Start Creating</h1>
         <p className='text-gray-500'>Download and start using your premium tools immediately.</p>

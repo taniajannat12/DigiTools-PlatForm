@@ -22,13 +22,15 @@ else{
     toast.success("Success")
 }
     }
-      
+           
     return (
         <div>
          {
            <div className="container mx-auto px-4 py-10">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {models.map((item) => (
+                {models.map((item) => 
+         
+                (
                     <div key={item.id} className="bg-white rounded-3xl p-8 border border-gray-100 shadow-sm  relative">
                         
                         <div className="absolute top-4 right-6">
@@ -41,8 +43,12 @@ else{
                         </div>
 
                         <div className="mb-8">
-                           
-                            <img src={item.icon} alt={item.name} className="w-12 h-12 mb-4" />
+                            <img 
+  src={`${import.meta.env.BASE_URL}${item.icon}`} 
+  alt={item.name} 
+  className="w-12 h-12 mb-4" 
+/>
+                            {/* <img src={item.icon} alt={item.name} className="w-12 h-12 mb-4" /> */}
                             <h3 className="text-2xl font-bold text-gray-800">{item.name}</h3>
                             <p className="text-gray-500 mt-2 text-sm leading-relaxed">
                                 {item.description}

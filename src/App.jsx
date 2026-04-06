@@ -15,7 +15,7 @@ import Footer from './Components/Footer'
 
 
 const getModels=async()=>{
-  const res=await fetch ('/data.json')
+  const res=await fetch ('data.json')
   return res.json();
 }
 

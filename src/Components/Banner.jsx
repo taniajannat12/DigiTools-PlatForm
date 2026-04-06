@@ -1,14 +1,14 @@
 import React from 'react';
 import { FaRegDotCircle} from "react-icons/fa";
 import { CiPlay1 } from "react-icons/ci";
-import bannerImg from '../assets/banner.png'; 
+
 
 const Banner = () => {
     return (
       <div>
                 <div className="container mx-auto px-10 hero-content flex-col lg:flex-row-reverse justify-between">
                <div className='ml-6'>
-                <img src={bannerImg} className="max-w-sm rounded-lg shadow-2xl" alt="Banner" /></div>
+            <img src="/DigiTools-Platform/assets/banner.png" alt="user" className="max-w-sm rounded-lg shadow-2xl" /></div>
                <div>
                 <div className='flex justify-start bg-gray-200 rounded-full p-2 '>
                     <h1 className=' text-blue-600'><FaRegDotCircle /></h1>
